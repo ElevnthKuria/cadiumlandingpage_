@@ -24,7 +24,9 @@ const Hero = () => {
               <span className="text-primary-400 block">Digital Excellence</span>
             </h1>
             <p className="text-lg md:text-xl text-secondary-300 mb-8 max-w-xl">
-              We craft custom software solutions, implement strategic digital marketing, and deliver expert project management to help your business thrive in the digital world.
+              We are a forward-thinking organization dedicated to harnessing the potential of data, information, 
+              and technology to provide businesses with state-of-the-art solutions.
+              Focusing on the convergence of technology and data, we aim to empower clients to make well-informed choices and foster growth.
             </p>
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
               <Link to="contact" smooth={true} duration={500}>
