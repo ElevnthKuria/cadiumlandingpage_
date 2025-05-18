@@ -45,8 +45,8 @@ const AboutUs = () => {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-secondary-900/80 to-transparent"></div>
                   <div className="absolute bottom-0 left-0 p-6 md:p-8">
-                    <span className="inline-block px-4 py-2 bg-primary-600 text-white rounded-full text-sm font-semibold mb-3">Since 2010</span>
-                    <h3 className="text-white text-2xl md:text-3xl font-bold">15+ years of digital excellence</h3>
+                    <span className="inline-block px-4 py-2 bg-primary-600 text-white rounded-full text-sm font-semibold mb-3">Established 2023</span>
+                    <h3 className="text-white text-2xl md:text-3xl font-bold">Since then, we are pioneering digital excellence</h3>
                   </div>
                 </div>
               </div>
@@ -62,7 +62,10 @@ const AboutUs = () => {
             
             <AnimatedSection delay={0.2}>
               <p className="text-secondary-700 mb-8">
-                At Cadium, we combine technical expertise, creative thinking, and strategic insight to deliver digital solutions that transform businesses. Our team of passionate professionals is dedicated to helping organizations navigate the complexities of the digital landscape and achieve lasting success.
+                At Cadium, we combine technical expertise, creative thinking, and strategic vision to transform businesses with technological solutions.   
+                We are enthusiastic professionals who guide enterprises through the digital world and ensure long-term success.
+                Our talented and experienced staff has expertise in software development, data science, research, and information consultation.   
+                Every person provides a unique blend of talents and knowledge that matches our clients' demands, resulting in extraordinary solutions.
               </p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6 mb-8">

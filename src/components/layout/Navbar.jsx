@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FiMenu, FiX } from 'react-icons/fi';
-import  Logo from '../../../public/cadium_logo_rgb_small.svg?react'; 
+import  Logo from '../../../public/cadium_logo_rgb_Lg.svg?react'; 
 
 const navLinks = [
   { name: 'Overview', target: 'overview' },
@@ -56,7 +56,7 @@ const Navbar = () => {
             <span className={`font-bold text-xl ${scrolled ? 'text-secondary-900' : 'text-secondary-900 md:text-white'}`}>
               Cadium
             </span> */} 
-            <Logo className="w-32 h-auto" />
+            <Logo className="w-40 h-auto" />
               
           </div>
         </Link>

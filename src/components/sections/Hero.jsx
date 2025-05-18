@@ -20,13 +20,12 @@ const Hero = () => {
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
-              Welcome to CADIUM.
-              <span className="text-primary-400 block">Digital Excellence</span>
+              Welcome to CADIUM
+              <span className="text-primary-00 block">Digital Excellence</span>
             </h1>
             <p className="text-lg md:text-xl text-secondary-300 mb-8 max-w-xl">
-              We are a forward-thinking organization dedicated to harnessing the potential of data, information, 
-              and technology to provide businesses with state-of-the-art solutions.
-              Focusing on the convergence of technology and data, we aim to empower clients to make well-informed choices and foster growth.
+              We are an innovative organization committed to leveraging the power of data, information, and technology to deliver cutting-edge solutions for businesses.
+              By concentrating on the intersection of technology and data, we strive to enable our clients to make informed decisions and promote growth.
             </p>
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
               <Link to="contact" smooth={true} duration={500}>
@@ -36,7 +35,7 @@ const Hero = () => {
               </Link>
               <Link to="services" smooth={true} duration={500}>
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white/10">
-                  Our Servicesgi
+                  Our Services
                 </Button>
               </Link>
             </div>

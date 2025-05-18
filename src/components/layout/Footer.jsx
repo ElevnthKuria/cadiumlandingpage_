@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import { FiGithub, FiTwitter, FiLinkedin, FiInstagram } from 'react-icons/fi';
+import  Logo from '../../../public/cadium_logo_rgb_Lg.svg?react'; 
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -11,16 +12,18 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           <div className="md:col-span-1">
             <div className="flex items-center mb-6">
-              <div className="h-10 w-10 rounded-md bg-primary-600 flex items-center justify-center mr-2">
+              {/* <div className="h-10 w-10 rounded-md bg-primary-600 flex items-center justify-center mr-2">
                 <span className="text-white font-bold text-xl">C</span>
               </div>
-              <span className="font-bold text-xl text-white">Cadium</span>
+              
+              <span className="font-bold text-xl text-white">Cadium</span> */}
+              <Logo className="w-auto h-24" />
             </div>
             <p className="text-secondary-300 mb-6">
               Transforming ideas into exceptional digital experiences.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-secondary-300 hover:text-white transition-colors">
+              <a href="https://www.linkedin.com/company/cadiumke/?viewAsMember=true" className="text-secondary-300 hover:text-white transition-colors">
                 <FiTwitter size={20} />
               </a>
               <a href="#" className="text-secondary-300 hover:text-white transition-colors">
@@ -71,7 +74,7 @@ const Footer = () => {
               </li>
               <li>
                 <a href="#" className="text-secondary-300 hover:text-white transition-colors">
-                  Digital Marketing
+                  Data Analytics and Management
                 </a>
               </li>
               <li>
@@ -81,7 +84,17 @@ const Footer = () => {
               </li>
               <li>
                 <a href="#" className="text-secondary-300 hover:text-white transition-colors">
-                  UX/UI Design
+                  Artificial Intelligence
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-secondary-300 hover:text-white transition-colors">
+                  Storage and Backup Solutions
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-secondary-300 hover:text-white transition-colors">
+                  Consulting Services
                 </a>
               </li>
             </ul>
@@ -90,10 +103,10 @@ const Footer = () => {
           <div>
             <h4 className="text-white font-semibold text-lg mb-4">Contact</h4>
             <ul className="space-y-2">
-              <li className="text-secondary-300">
+              {/* <li className="text-secondary-300">
                 123 Innovation Drive<br />
                 San Francisco, CA 94103
-              </li>
+              </li> */}
               <li>
                 <a href="mailto:info@cadium.com" className="text-secondary-300 hover:text-white transition-colors">
                   info@cadium.com
@@ -101,7 +114,7 @@ const Footer = () => {
               </li>
               <li>
                 <a href="tel:+1-555-123-4567" className="text-secondary-300 hover:text-white transition-colors">
-                  +1 (555) 123-4567
+                  +254 721 528218
                 </a>
               </li>
             </ul>

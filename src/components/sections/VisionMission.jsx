@@ -46,7 +46,7 @@ const VisionMission = () => {
                     <h3 className="text-2xl font-bold ml-4">Our Vision</h3>
                   </div>
                   <p className="text-primary-100 leading-relaxed">
-                    To be the leading catalyst for digital innovation, empowering businesses worldwide to thrive in an ever-evolving technological landscape through forward-thinking solutions that transcend ordinary expectations.
+                    To be an established global catalyst and leading agency in the provision of data-centric solutions, enabling businesses and enterprises to achieve their full potential through the use of cutting-edge technology and artificial intelligence.
                   </p>
                   
                   <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -91,7 +91,7 @@ const VisionMission = () => {
                     <h3 className="text-2xl font-bold ml-4 text-secondary-900">Our Mission</h3>
                   </div>
                   <p className="text-secondary-700 leading-relaxed">
-                    To deliver transformative digital solutions through expert software development, strategic marketing, and masterful project management that drive exceptional business outcomes and create sustainable competitive advantages for our clients.
+                    At CADIUM, we aim to deliver innovative technological solutions that convert raw data into meaningful insights. We are committed to building lasting relationships with our clients that guarantee their success through tailored solutions and exceptional service quality.
                   </p>
                   
                   <div className="mt-8 space-y-4">

@@ -2,7 +2,11 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import SectionTitle from '../ui/SectionTitle';
 import AnimatedSection from '../ui/AnimatedSection';
-import { FiCode, FiBarChart2, FiClipboard } from 'react-icons/fi';
+import { FiCode, FiBarChart2, FiClipboard} from 'react-icons/fi';
+import { BiArchive } from "react-icons/bi";
+import { IoLogoAppleAr } from "react-icons/io5";
+import { AiOutlineHdd } from "react-icons/ai";
+import { LiaPeopleCarrySolid } from "react-icons/lia";
 
 const features = [
   {
@@ -15,8 +19,8 @@ const features = [
   {
     id: 2,
     icon: <FiBarChart2 size={24} />,
-    title: 'Digital Marketing',
-    description: 'Strategic marketing solutions that increase your online presence and drive meaningful customer engagement.',
+    title: 'Data Analytics and Management',
+    description: 'We have the necessary skills to examine extensive datasets and uncover meaningful insights that can inform strategic choices.',
     color: 'bg-green-50 text-green-600',
   },
   {
@@ -26,13 +30,34 @@ const features = [
     description: 'Efficient project management methodologies ensuring on-time, on-budget delivery with maximum business value.',
     color: 'bg-amber-50 text-amber-600',
   },
+  {
+    id: 4,
+    icon: <IoLogoAppleAr size={24} />,
+    title: 'Artificial Intelligence Applications',
+    description: 'Develop AI-driven technologies to automate and improve operations.  We focus on smoothly integrating innovative technological solutions into business structures to boost productivity and efficiency.',
+    color: 'bg-blue-50 text-blue-600',
+  },
+  {
+    id: 5,
+    icon: <AiOutlineHdd size={27} />,
+    title: 'Storage and Backup Solutions',
+    description: 'We can help you handle data loss problems and develop solutions to securely back up, safeguard, and protect vital records and data.',
+    color: 'bg-green-50 text-green-600',
+  },
+  {
+    id: 6,
+    icon: <LiaPeopleCarrySolid size={32} />,
+    title: 'Consulting Services',
+    description: 'We provide expert advice and assistance to organizations eager to leverage data and technology for their advancement.',
+    color: 'bg-purple-50 text-purple-600',
+  }
 ];
 
 const statsItems = [
   { id: 1, value: '98%', label: 'Client Retention' },
-  { id: 2, value: '200+', label: 'Projects Delivered' },
-  { id: 3, value: '15+', label: 'Years Experience' },
-  { id: 4, value: '30+', label: 'Team Members' },
+  { id: 2, value: '20+', label: 'Projects Delivered' },
+  { id: 3, value: '2+', label: 'Years Experience' },
+  { id: 4, value: '10+', label: 'Team Members' },
 ];
 
 const Overview = () => {
