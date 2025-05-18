@@ -20,7 +20,7 @@ const Hero = () => {
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
-              Transforming Ideas into 
+              Welcome to CADIUM.
               <span className="text-primary-400 block">Digital Excellence</span>
             </h1>
             <p className="text-lg md:text-xl text-secondary-300 mb-8 max-w-xl">
@@ -34,7 +34,7 @@ const Hero = () => {
               </Link>
               <Link to="services" smooth={true} duration={500}>
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white/10">
-                  Our Services
+                  Our Servicesgi
                 </Button>
               </Link>
             </div>
