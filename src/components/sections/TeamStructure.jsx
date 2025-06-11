@@ -12,18 +12,6 @@ const teamMembers = [
     bio: "Working in tech, data, and business leadership, Kuria leads Cadium's vision and strategy."
   },
   {
-    name: "Emmanuel Mwaele",
-    role: "CTO",
-    // image: "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    bio: "Tech Lead, Emmanuel oversees all technical operations and ensures we stay at the cutting edge."
-  },
-  {
-    name: "Derrick Lilumbi",
-    role: "Information Officer",
-    // image: "https://images.pexels.com/photos/773371/pexels-photo-773371.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    bio: "Derrick crafts our Info strategies and leads our information management, upholding compliance policy and regulations."
-  },
-  {
     name: "James Kalia",
     role: "Lead Business Operations",
     // image: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
