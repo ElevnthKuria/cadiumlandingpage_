@@ -140,12 +140,6 @@ const Contact = () => {
                           {/* <option value="marketing">Digital Marketing</option> */}
                           <option value="marketing">Consulting Services</option>
                           <option value="other">Other Services</option>
-                          Software Development
-
-
-
-
-
                         </select>
                       </div>
                     </div>
@@ -202,8 +196,8 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="text-secondary-400 text-sm mb-1">Email Us At</p>
-                      <a href="mailto:info@cadium.com" className="text-white hover:text-primary-400 transition-colors">
-                        info@cadium.co.ke
+                      <a href="mailto:elevnthkuria@gmail.com" className="text-white hover:text-primary-400 transition-colors">
+                        info@cadium.com
                       </a>
                     </div>
                   </div>

@@ -108,7 +108,7 @@ const Footer = () => {
                 San Francisco, CA 94103
               </li> */}
               <li>
-                <a href="mailto:info@cadium.com" className="text-secondary-300 hover:text-white transition-colors">
+                <a href="mailto:elevnthkuria@gmail.com" className="text-secondary-300 hover:text-white transition-colors">
                   info@cadium.com
                 </a>
               </li>

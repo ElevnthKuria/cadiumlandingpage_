@@ -89,7 +89,7 @@ const services = [
       },
       {
         title: "Custom AI/ML Development",
-        description: "We develop **custom AI solutions** tailored to your unique needs. This involves integrating data aggregation technologies and employing **machine learning algorithms**. We offer **Machine Learning Development**."
+        description: "We develop <b>custom AI solutions</b> tailored to your unique needs. This involves integrating data aggregation technologies and employing **machine learning algorithms**. We offer **Machine Learning Development**."
       },
       {
         title: "Generative AI Solutions",
