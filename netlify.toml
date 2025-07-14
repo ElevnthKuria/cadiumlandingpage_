@@ -1,0 +1,21 @@
+[[redirects]]
+  from = "/old-page"
+  to = "/new-page"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/services"
+  to = "/#services"
+  status = 200
+
+[[redirects]]
+  from = "/contact"
+  to = "/#contact"
+  status = 200
+
+# Redirect all 404s to the homepage (SPA support)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
